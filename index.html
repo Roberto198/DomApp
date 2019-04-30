@@ -1,35 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>To Do List</title>
+		<script defer src="./index.js"></script>
+	</head>
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<title>To Do List</title>
-	<script defer src="./index.js"></script>
-</head>
-
-<body>
-	<form id="formData"><input id="formBox" type="text" /><input type="submit" value="Enter" /></form>
-	<ul id="list">
-		<li class="listItem">
-			<p><input type="checkbox" class="chkBox" />
-
-				mow lawn</p>
-		</li>
-		<li class="listItem">
-			<p><input type="checkbox" class="chkBox" />
-				clean windows</p>
-		</li>
-		<li class="listItem">
-			<p><input type="checkbox" class="chkBox" />
-				paint door</p>
-		</li>
-		<li class="listItem">
-			<p><input type="checkbox" class="chkBox" />
-				wash car</p>
-		</li>
-	</ul>
-</body>
-
+	<body>
+		<form id="formData">
+			<input id="formBox" type="text" />
+			<select>
+				<option value="1day">1 Day</option>
+				<option value="2day">2 Days</option>
+				<option value="3days">3 Days</option>
+				<option value="4days">4 Days</option>
+			</select>
+			<input type="submit" value="Enter" />
+		</form>
+		<ul id="list">
+			<li class="listItem">
+				<p><input type="checkbox" class="chkBox" />mow lawn</p>
+			</li>
+			<li class="listItem">
+				<p><input type="checkbox" class="chkBox" /> clean windows</p>
+			</li>
+			<li class="listItem">
+				<p><input type="checkbox" class="chkBox" /> paint door</p>
+			</li>
+			<li class="listItem">
+				<p><input type="checkbox" class="chkBox" /> wash car</p>
+			</li>
+		</ul>
+	</body>
 </html>
